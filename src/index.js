@@ -1,5 +1,6 @@
 // --
-import app from "./app";
+import app from "./app"; //let app = require("./app")
+
 import './database';
 
 app.listen(app.get("port"));

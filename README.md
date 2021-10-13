@@ -16,10 +16,17 @@ npm install express bcryptjs cors dotenv jsonwebtoken mongoose morgan
 
 # Dependencia de DESARROLLO -D
 # ----------------------------
-# @babel/cli @babel/core @babel/node @babel/preset-env : Para trabajar con la version de ES6
+# @babel/cli @babel/core @babel/node @babel/preset-env : Para trabajar con la version de ES6-10 o TypeScript
 # nodemon : Para recompilar proyecto por cada cambio en las fuentes
 npm install @babel/cli @babel/core @babel/node @babel/preset-env -D
 
 # Variables de Entorno
 PORT, valor por defecto: 3000
 MONGODB_URI, valor por defecto: MONGODB URI
+
+# --------------------------------------------------------------------------------------------
+# IMPORTANTE!!
+# Si te bajas el codigo de github con el git clone URL_PROJECT
+# solo tienes que ejecutar 
+npm install
+# porque ya las dependencias estan definidas en el package.json
